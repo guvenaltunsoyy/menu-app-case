@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DELL-SHOPI</Machine>
+    <WindowsUser>guven</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>a57ffda9-5ce7-47fd-ae63-55b2afd8306a</PackageIdentityName>
+    <PackageIdentityPublisher>CN=guven</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>59E2DBCB209D523BE4E635719BF6203413D073DB406B89695ECD0E5F5483F59F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a57ffda9-5ce7-47fd-ae63-55b2afd8306a_1.0.0.0_x86__vay083s4s3v58</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a57ffda9-5ce7-47fd-ae63-55b2afd8306a_vay083s4s3v58!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a57ffda9-5ce7-47fd-ae63-55b2afd8306a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=guven</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-16T15:43:09.481</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\MenuApp.exe">
+      <PackagePath>entrypoint\MenuApp.exe</PackagePath>
+      <Modified>2020-07-16T15:43:08.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-08T21:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T11:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T15:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\4-kisilik-menu-etli-yaprak-sarma.jpg">
+      <PackagePath>images\4-kisilik-menu-etli-yaprak-sarma.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\4-kisilik-menu-isvec-kofte.jpg">
+      <PackagePath>images\4-kisilik-menu-isvec-kofte.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\4-kisilik-menu-kori-soslu-tavuk.jpg">
+      <PackagePath>images\4-kisilik-menu-kori-soslu-tavuk.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\aci-soslu-patlicanli-fettucine.jpg">
+      <PackagePath>images\aci-soslu-patlicanli-fettucine.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\akdeniz-soslu-mercimek-salata-mini.jpg">
+      <PackagePath>images\akdeniz-soslu-mercimek-salata-mini.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\alpro-soya-sutu-cikolatali.jpg">
+      <PackagePath>images\alpro-soya-sutu-cikolatali.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\alpro-soya-sutu-cilekli.jpg">
+      <PackagePath>images\alpro-soya-sutu-cilekli.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\alpro-soya-sutu-sade.jpg">
+      <PackagePath>images\alpro-soya-sutu-sade.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\antep-usulu-karisik-dolma-ve-yogurt.jpg">
+      <PackagePath>images\antep-usulu-karisik-dolma-ve-yogurt.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\baharatli-firin-patates.jpg">
+      <PackagePath>images\baharatli-firin-patates.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\balzamik-soslu-bugday-salata-mini.jpg">
+      <PackagePath>images\balzamik-soslu-bugday-salata-mini.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\barbunya-pilaki.jpg">
+      <PackagePath>images\barbunya-pilaki.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\begendi-yataginda-kofte.jpg">
+      <PackagePath>images\begendi-yataginda-kofte.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\beyaz-et-menu.jpg">
+      <PackagePath>images\beyaz-et-menu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cappy-portakal-suyu-cam-sise-250ml.jpg">
+      <PackagePath>images\cappy-portakal-suyu-cam-sise-250ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cappy-portakal-suyu.jpg">
+      <PackagePath>images\cappy-portakal-suyu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cappy-seftali-suyu-cam-sise-250ml.jpg">
+      <PackagePath>images\cappy-seftali-suyu-cam-sise-250ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cappy-seftali.jpg">
+      <PackagePath>images\cappy-seftali.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cappy-visne-suyu-cam-sise-250ml.jpg">
+      <PackagePath>images\cappy-visne-suyu-cam-sise-250ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cappy-visne-suyu.jpg">
+      <PackagePath>images\cappy-visne-suyu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cekoslavak-gunesi.jpg">
+      <PackagePath>images\cekoslavak-gunesi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cikolatali-brownie.jpg">
+      <PackagePath>images\cikolatali-brownie.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\cikolatali-sufle.jpg">
+      <PackagePath>images\cikolatali-sufle.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\coca-cola-cam-sise.jpg">
+      <PackagePath>images\coca-cola-cam-sise.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\coca-cola-kutu-330ml.jpg">
+      <PackagePath>images\coca-cola-kutu-330ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\coca-cola-light-cam-sise.jpg">
+      <PackagePath>images\coca-cola-light-cam-sise.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\coca-cola-light-kutu.jpg">
+      <PackagePath>images\coca-cola-light-kutu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\coca-cola-zero-cam-sise.jpg">
+      <PackagePath>images\coca-cola-zero-cam-sise.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\coca-cola-zero-kutu.jpg">
+      <PackagePath>images\coca-cola-zero-kutu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\damla-su.jpg">
+      <PackagePath>images\damla-su.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\dana-kavurma-ve-sehriyeli-pilav.jpg">
+      <PackagePath>images\dana-kavurma-ve-sehriyeli-pilav.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\diyet-menu.jpg">
+      <PackagePath>images\diyet-menu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\domatesli-bulgur-pilavi.jpg">
+      <PackagePath>images\domatesli-bulgur-pilavi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\enjoy-sikma-portakal-suyu.jpg">
+      <PackagePath>images\enjoy-sikma-portakal-suyu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\enjoy-smoothie-cilekandmuz-250ml.jpg">
+      <PackagePath>images\enjoy-smoothie-cilekandmuz-250ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\enjoy-smoothie-mangoandpassion-fruit.jpg">
+      <PackagePath>images\enjoy-smoothie-mangoandpassion-fruit.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\etli-yaprak-sarma-ve-yogurt.jpg">
+      <PackagePath>images\etli-yaprak-sarma-ve-yogurt.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\fanta-portakal-kutu.jpg">
+      <PackagePath>images\fanta-portakal-kutu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\firinlanmis-beyaz-nohut.jpg">
+      <PackagePath>images\firinlanmis-beyaz-nohut.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\firinlanmis-tereyagli-mercimek-corbasi.jpg">
+      <PackagePath>images\firinlanmis-tereyagli-mercimek-corbasi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\found-elmaliandtarcinli-demlendirilmis-su.jpg">
+      <PackagePath>images\found-elmaliandtarcinli-demlendirilmis-su.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\found-limonlu-demlendirilmis-su-330ml.jpg">
+      <PackagePath>images\found-limonlu-demlendirilmis-su-330ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\found-murver-cicekli-demlendirilmis-su-330ml.jpg">
+      <PackagePath>images\found-murver-cicekli-demlendirilmis-su-330ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\found-naneliandsalatalikli-demlendirilmis-su.jpg">
+      <PackagePath>images\found-naneliandsalatalikli-demlendirilmis-su.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\frambuazli-cheesecake.jpg">
+      <PackagePath>images\frambuazli-cheesecake.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\fuse-tea-limon-cam-sise-250ml.jpg">
+      <PackagePath>images\fuse-tea-limon-cam-sise-250ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\fuse-tea-limon-kutu.jpg">
+      <PackagePath>images\fuse-tea-limon-kutu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\fuse-tea-seftali-cam-sise-250ml.jpg">
+      <PackagePath>images\fuse-tea-seftali-cam-sise-250ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\fuse-tea-seftali.jpg">
+      <PackagePath>images\fuse-tea-seftali.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\guarana-antarctica-gazli-icecek.jpg">
+      <PackagePath>images\guarana-antarctica-gazli-icecek.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\hunkar-begendi.jpg">
+      <PackagePath>images\hunkar-begendi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\illy-caffe-macchiato-pet-250ml.jpg">
+      <PackagePath>images\illy-caffe-macchiato-pet-250ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\illy-latte-macchiato-pet-250ml.jpg">
+      <PackagePath>images\illy-latte-macchiato-pet-250ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\ince-kiyim-saksuka.jpg">
+      <PackagePath>images\ince-kiyim-saksuka.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\irmik-helvasi.jpg">
+      <PackagePath>images\irmik-helvasi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\istemiyorum.jpg">
+      <PackagePath>images\istemiyorum.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\isvec-kofte.jpg">
+      <PackagePath>images\isvec-kofte.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\izgara-kofte-ve-karisik-sebze.jpg">
+      <PackagePath>images\izgara-kofte-ve-karisik-sebze.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\izgara-tavuk-ve-karisik-sebze.jpg">
+      <PackagePath>images\izgara-tavuk-ve-karisik-sebze.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\kabak-kalye.jpg">
+      <PackagePath>images\kabak-kalye.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\kadinbudu-kofte.jpg">
+      <PackagePath>images\kadinbudu-kofte.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\kasarli-patates-puresi.jpg">
+      <PackagePath>images\kasarli-patates-puresi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\kirmizi-et-menu.jpg">
+      <PackagePath>images\kirmizi-et-menu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\kiymali-ispanak-oturtma-ve-yogurt.jpg">
+      <PackagePath>images\kiymali-ispanak-oturtma-ve-yogurt.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\kiymali-yesil-mercimek.jpg">
+      <PackagePath>images\kiymali-yesil-mercimek.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\kori-soslu-mantarli-tavuk.jpg">
+      <PackagePath>images\kori-soslu-mantarli-tavuk.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\kus-sutu.jpg">
+      <PackagePath>images\kus-sutu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\logo.jpg">
+      <PackagePath>images\logo.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\mini-icli-kofte.jpg">
+      <PackagePath>images\mini-icli-kofte.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\mini-karisik-sebze.jpg">
+      <PackagePath>images\mini-karisik-sebze.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\naneli-yogurt-corbasi.jpg">
+      <PackagePath>images\naneli-yogurt-corbasi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\nohutlu-sehriyeli-pirinc-pilavi.jpg">
+      <PackagePath>images\nohutlu-sehriyeli-pirinc-pilavi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\orman-kebabi.jpg">
+      <PackagePath>images\orman-kebabi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\pancar-salata.jpg">
+      <PackagePath>images\pancar-salata.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\patates-puresi-yataginda-kofte.jpg">
+      <PackagePath>images\patates-puresi-yataginda-kofte.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\pilav-ustu-firin-tavuk.jpg">
+      <PackagePath>images\pilav-ustu-firin-tavuk.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\pilic-piccata-ve-fettucine.jpg">
+      <PackagePath>images\pilic-piccata-ve-fettucine.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\sebzeli--etli-menu.jpg">
+      <PackagePath>images\sebzeli--etli-menu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\siyah-inci-dilim.jpg">
+      <PackagePath>images\siyah-inci-dilim.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\somon-izgara.jpg">
+      <PackagePath>images\somon-izgara.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\soslu-izgara-sebze.jpg">
+      <PackagePath>images\soslu-izgara-sebze.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\soya-soslu-tavuklu-sebzeli-noodle.jpg">
+      <PackagePath>images\soya-soslu-tavuklu-sebzeli-noodle.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\sprite-kutu.jpg">
+      <PackagePath>images\sprite-kutu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\sutas-ayran-300ml.jpg">
+      <PackagePath>images\sutas-ayran-300ml.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\sutlu-brokoli-corbasi.jpg">
+      <PackagePath>images\sutlu-brokoli-corbasi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\tereyagli-cevizli-eriste.jpg">
+      <PackagePath>images\tereyagli-cevizli-eriste.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\thai-salata.jpg">
+      <PackagePath>images\thai-salata.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\turlu.jpg">
+      <PackagePath>images\turlu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\veggie-lazanya.jpg">
+      <PackagePath>images\veggie-lazanya.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\vejeteryan-menu.jpg">
+      <PackagePath>images\vejeteryan-menu.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\venedik-soslu-kinoa-salatasi.jpg">
+      <PackagePath>images\venedik-soslu-kinoa-salatasi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\zerdecal-soslu-karisik-sebze.jpg">
+      <PackagePath>images\zerdecal-soslu-karisik-sebze.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\zeytinyagli-brokoli.jpg">
+      <PackagePath>images\zeytinyagli-brokoli.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\images\zeytinyagli-bruksel-lahanasi.jpg">
+      <PackagePath>images\zeytinyagli-bruksel-lahanasi.jpg</PackagePath>
+      <Modified>2020-07-15T18:11:58.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-07-15T18:09:53.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-12-05T09:16:24.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-05T09:16:24.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-05T09:16:24.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-05T09:16:24.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-05T09:16:24.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-05T09:16:24.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-05T09:16:24.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\MenuApp.xr.xml">
+      <PackagePath>MenuApp.xr.xml</PackagePath>
+      <Modified>2020-07-16T15:26:25.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-07-16T15:40:37.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-07-16T15:40:37.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\SubMenuPage.xbf">
+      <PackagePath>SubMenuPage.xbf</PackagePath>
+      <Modified>2020-07-16T15:40:37.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T14:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-07-15T19:30:37.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phygitalmind\source\repos\MenuApp\MenuApp\bin\x86\Debug\Core\MenuApp.exe">
+      <PackagePath>MenuApp.exe</PackagePath>
+      <Modified>2020-07-16T15:43:09.476</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

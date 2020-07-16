@@ -1,0 +1,94 @@
+﻿<Page
+    x:Class="MenuApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MenuApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:MenuApp.Models"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <CollectionViewSource x:Name="CollectionViewSource"/>
+        
+        <DataTemplate x:Key="MenuTemplate"
+                      x:DataType="models:MenuItem">
+                <StackPanel Orientation="Vertical" MaxWidth="300">
+                    <TextBlock Text="{Binding Name}"
+                               FontSize="20"
+                               TextWrapping="Wrap"
+                               HorizontalAlignment="Center"
+                               FontWeight="Bold"
+                               Foreground="Chocolate"
+                               Margin="5"/>
+                    <Image Source="{Binding Image}"
+                           Width="200"
+                           HorizontalAlignment="Center"
+                           Height="100"/>
+                </StackPanel>
+        </DataTemplate>
+
+    </Page.Resources>
+    <Grid RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderThickness="5"
+                Grid.ColumnSpan="2"
+                BorderBrush="Chocolate">
+                <StackPanel Orientation="Horizontal"
+                            Spacing="15">
+                    <Button x:Name="btnBack" Click="BtnBack_OnClick" Width="80" Height="50"
+                            Background="Chocolate" BorderBrush="Azure">
+                        <TextBlock Text="Geri" 
+                                   Foreground="Azure" 
+                                   VerticalAlignment="Center"
+                                   FontSize="25"/>
+                    </Button>
+                    <TextBlock x:Name="TbStep"
+                               FontSize="25"
+                               VerticalAlignment="Center"
+                               Foreground="Chocolate"/>
+                    <Button  Click="BtnFinish_OnClick" Width="200" Height="50"
+                             HorizontalAlignment="Right"
+                            Background="Chocolate" BorderBrush="Azure">
+                        <TextBlock Text="Siparisi Bitir" 
+                                   Foreground="Azure" 
+                                   VerticalAlignment="Center"
+                                   FontSize="25"/>
+                    </Button>
+            </StackPanel>
+
+            </Border>
+           
+        <Frame x:Name="StepFrame"
+               Grid.Row="1"
+               Margin="5">
+        </Frame>
+        <Border Grid.Row="1"
+                Grid.Column="1"
+                Margin="5"
+                BorderThickness="5"
+                BorderBrush="Chocolate">
+            <ScrollViewer>
+                <StackPanel Margin="5,5,0,0">
+                    <TextBlock Text="Toplam ucret :"/>
+                    <TextBlock x:Name="TbTotalPrice"/>
+                    <TextBlock x:Name="TbOrder"
+                             FontSize="25"
+                             HorizontalAlignment="Stretch"
+                             HorizontalTextAlignment="Justify"
+                             TextWrapping="Wrap"
+                             VerticalAlignment="Stretch"/>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Page>

@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{84A94F98-7242-4D94-87E3-56DB3AD946B8}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MenuApp</RootNamespace>
+    <AssemblyName>MenuApp</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <OutputPath>bin\ARM64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Menu.cs" />
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\MenuModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubMenuPage.xaml.cs">
+      <DependentUpon>SubMenuPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\4-kisilik-menu-etli-yaprak-sarma.jpg" />
+    <Content Include="images\4-kisilik-menu-isvec-kofte.jpg" />
+    <Content Include="images\4-kisilik-menu-kori-soslu-tavuk.jpg" />
+    <Content Include="images\aci-soslu-patlicanli-fettucine.jpg" />
+    <Content Include="images\akdeniz-soslu-mercimek-salata-mini.jpg" />
+    <Content Include="images\alpro-soya-sutu-cikolatali.jpg" />
+    <Content Include="images\alpro-soya-sutu-cilekli.jpg" />
+    <Content Include="images\alpro-soya-sutu-sade.jpg" />
+    <Content Include="images\antep-usulu-karisik-dolma-ve-yogurt.jpg" />
+    <Content Include="images\baharatli-firin-patates.jpg" />
+    <Content Include="images\balzamik-soslu-bugday-salata-mini.jpg" />
+    <Content Include="images\barbunya-pilaki.jpg" />
+    <Content Include="images\begendi-yataginda-kofte.jpg" />
+    <Content Include="images\beyaz-et-menu.jpg" />
+    <Content Include="images\cappy-portakal-suyu-cam-sise-250ml.jpg" />
+    <Content Include="images\cappy-portakal-suyu.jpg" />
+    <Content Include="images\cappy-seftali-suyu-cam-sise-250ml.jpg" />
+    <Content Include="images\cappy-seftali.jpg" />
+    <Content Include="images\cappy-visne-suyu-cam-sise-250ml.jpg" />
+    <Content Include="images\cappy-visne-suyu.jpg" />
+    <Content Include="images\cekoslavak-gunesi.jpg" />
+    <Content Include="images\cikolatali-brownie.jpg" />
+    <Content Include="images\cikolatali-sufle.jpg" />
+    <Content Include="images\coca-cola-cam-sise.jpg" />
+    <Content Include="images\coca-cola-kutu-330ml.jpg" />
+    <Content Include="images\coca-cola-light-cam-sise.jpg" />
+    <Content Include="images\coca-cola-light-kutu.jpg" />
+    <Content Include="images\coca-cola-zero-cam-sise.jpg" />
+    <Content Include="images\coca-cola-zero-kutu.jpg" />
+    <Content Include="images\damla-su.jpg" />
+    <Content Include="images\dana-kavurma-ve-sehriyeli-pilav.jpg" />
+    <Content Include="images\diyet-menu.jpg" />
+    <Content Include="images\domatesli-bulgur-pilavi.jpg" />
+    <Content Include="images\enjoy-sikma-portakal-suyu.jpg" />
+    <Content Include="images\enjoy-smoothie-cilekandmuz-250ml.jpg" />
+    <Content Include="images\enjoy-smoothie-mangoandpassion-fruit.jpg" />
+    <Content Include="images\etli-yaprak-sarma-ve-yogurt.jpg" />
+    <Content Include="images\fanta-portakal-kutu.jpg" />
+    <Content Include="images\firinlanmis-beyaz-nohut.jpg" />
+    <Content Include="images\firinlanmis-tereyagli-mercimek-corbasi.jpg" />
+    <Content Include="images\found-elmaliandtarcinli-demlendirilmis-su.jpg" />
+    <Content Include="images\found-limonlu-demlendirilmis-su-330ml.jpg" />
+    <Content Include="images\found-murver-cicekli-demlendirilmis-su-330ml.jpg" />
+    <Content Include="images\found-naneliandsalatalikli-demlendirilmis-su.jpg" />
+    <Content Include="images\frambuazli-cheesecake.jpg" />
+    <Content Include="images\fuse-tea-limon-cam-sise-250ml.jpg" />
+    <Content Include="images\fuse-tea-limon-kutu.jpg" />
+    <Content Include="images\fuse-tea-seftali-cam-sise-250ml.jpg" />
+    <Content Include="images\fuse-tea-seftali.jpg" />
+    <Content Include="images\guarana-antarctica-gazli-icecek.jpg" />
+    <Content Include="images\hunkar-begendi.jpg" />
+    <Content Include="images\illy-caffe-macchiato-pet-250ml.jpg" />
+    <Content Include="images\illy-latte-macchiato-pet-250ml.jpg" />
+    <Content Include="images\ince-kiyim-saksuka.jpg" />
+    <Content Include="images\irmik-helvasi.jpg" />
+    <Content Include="images\istemiyorum.jpg" />
+    <Content Include="images\isvec-kofte.jpg" />
+    <Content Include="images\izgara-kofte-ve-karisik-sebze.jpg" />
+    <Content Include="images\izgara-tavuk-ve-karisik-sebze.jpg" />
+    <Content Include="images\kabak-kalye.jpg" />
+    <Content Include="images\kadinbudu-kofte.jpg" />
+    <Content Include="images\kasarli-patates-puresi.jpg" />
+    <Content Include="images\kirmizi-et-menu.jpg" />
+    <Content Include="images\kiymali-ispanak-oturtma-ve-yogurt.jpg" />
+    <Content Include="images\kiymali-yesil-mercimek.jpg" />
+    <Content Include="images\kori-soslu-mantarli-tavuk.jpg" />
+    <Content Include="images\kus-sutu.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\mini-icli-kofte.jpg" />
+    <Content Include="images\mini-karisik-sebze.jpg" />
+    <Content Include="images\naneli-yogurt-corbasi.jpg" />
+    <Content Include="images\nohutlu-sehriyeli-pirinc-pilavi.jpg" />
+    <Content Include="images\orman-kebabi.jpg" />
+    <Content Include="images\pancar-salata.jpg" />
+    <Content Include="images\patates-puresi-yataginda-kofte.jpg" />
+    <Content Include="images\pilav-ustu-firin-tavuk.jpg" />
+    <Content Include="images\pilic-piccata-ve-fettucine.jpg" />
+    <Content Include="images\sebzeli--etli-menu.jpg" />
+    <Content Include="images\siyah-inci-dilim.jpg" />
+    <Content Include="images\somon-izgara.jpg" />
+    <Content Include="images\soslu-izgara-sebze.jpg" />
+    <Content Include="images\soya-soslu-tavuklu-sebzeli-noodle.jpg" />
+    <Content Include="images\sprite-kutu.jpg" />
+    <Content Include="images\sutas-ayran-300ml.jpg" />
+    <Content Include="images\sutlu-brokoli-corbasi.jpg" />
+    <Content Include="images\tereyagli-cevizli-eriste.jpg" />
+    <Content Include="images\thai-salata.jpg" />
+    <Content Include="images\turlu.jpg" />
+    <Content Include="images\veggie-lazanya.jpg" />
+    <Content Include="images\vejeteryan-menu.jpg" />
+    <Content Include="images\venedik-soslu-kinoa-salatasi.jpg" />
+    <Content Include="images\zerdecal-soslu-karisik-sebze.jpg" />
+    <Content Include="images\zeytinyagli-brokoli.jpg" />
+    <Content Include="images\zeytinyagli-bruksel-lahanasi.jpg" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SubMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.9</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\AppX\menu.json" />
+    <None Include="menu.json" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
